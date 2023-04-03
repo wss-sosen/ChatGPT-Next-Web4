@@ -636,7 +636,7 @@ export function Home() {
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
-            <div style={{ marginLeft: "20px" }}>
+            <div style={{ marginLeft: "12px" }}>
               <p>想要了解更多内容的朋友可以加入我们的知识星球</p>
             </div>
           </div>

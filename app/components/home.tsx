@@ -633,8 +633,12 @@ export function Home() {
           </div>
           <div className={styles["sidebar-sub-title"]}>
             构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！更多资讯可关注infoepoch官网www.infoepoch.cn。
-            加入知识星球：
-            <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "50%", height: "auto" }}/>
+          </div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <img src="图片地址" alt="图片描述" style={{ width: "50%", height: "auto" }} />
+            <div style={{ marginLeft: "20px" }}>
+              <p>想要了解更多内容的朋友可以加入我们的知识星球</p>
+            </div>
           </div>
         </div>
 

@@ -636,7 +636,7 @@ export function Home() {
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
-            <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
+            <img src="https://www.infoepoch.cn/zhishixingqiu-demo1.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
           </div>
         </div>
 

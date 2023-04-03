@@ -629,8 +629,9 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Next</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
-          </div>
+  构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！本项目是Yifei Zhang在github.com的开源项目，经infoepoch二次开发并在本网部署，供大家交流学习。更多资讯可关注infoepoch官网www.infoepoch.cn。感谢支持！
+  <img src="https://www.infoepoch.cn/xingiqu.png" alt="图片描述">
+</div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>

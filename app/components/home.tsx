@@ -635,13 +635,16 @@ export function Home() {
             构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！更多资讯可关注infoepoch官网www.infoepoch.cn。
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
-            <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
+          <div style={{ width: "300px" }}>
+            <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "100%", height: "auto" }} />
+          </div>
+          <div style={{ width: "calc(50% - 300px)", padding: "0 10px" }}>
             <a href="https://work.weixin.qq.com/kfid/kfcf0f28f847b64c9d0">
-              <img src="https://www.infoepoch.cn/zhishixingqiu-demo1.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
+              <img src="https://www.infoepoch.cn/zhishixingqiu-demo1.png" alt="图片描述" style={{ width: "100%", height: "auto" }} />
             </a>
           </div>
+          </div>
         </div>
-
         <div
           className={styles["sidebar-body"]}
           onClick={() => {

@@ -636,11 +636,11 @@ export function Home() {
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ width: "50%" }}>
-            <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "100%", height: "auto" }} />
+            <img src="https://www.infoepoch.cn/zhishixingqiu-demo.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
           </div>
-          <div style={{ width: "calc(50% - 300px)", padding: "0 10px" }}>
+          <div style={{ width: "50%" }}>
             <a href="https://work.weixin.qq.com/kfid/kfcf0f28f847b64c9d0">
-              <img src="https://www.infoepoch.cn/zhishixingqiu-demo1.png" alt="图片描述" style={{ width: "100%", height: "auto" }} />
+              <img src="https://www.infoepoch.cn/zhishixingqiu-demo1.png" alt="图片描述" style={{ width: "50%", height: "auto" }} />
             </a>
           </div>
           </div>

@@ -670,7 +670,7 @@ export function Home() {
               <a href={REPO_URL} target="_blank">
                 <IconButton
                   icon={<GithubIcon />} 
-                  text={Locale.Home.NewChat}  
+                  text={官网}  
                   />
               </a>
             </div>

@@ -43,6 +43,7 @@ const en: LocaleType = {
   },
   Home: {
     NewChat: "New Chat",
+    Guanwang:"go"
     DeleteChat: "Confirm to delete the selected conversation?",
   },
   Settings: {

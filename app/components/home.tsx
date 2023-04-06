@@ -666,15 +666,14 @@ export function Home() {
                 <IconButton icon={<GithubIcon />} />
               </a>
             </div>
-            <div>
-            <IconButton
-              icon={<AddIcon />}
-              text={Locale.Home.NewChat}
-              onClick={() => {
-                createNewSession();
-                setShowSideBar(false);
-              }}
-            />
+            <div className={styles["sidebar-action"]}>
+              <a href={REPO_URL} target="_blank">
+                <IconButton
+                  icon={<GithubIcon />} 
+                  text={Locale.Home.NewChat}  
+                  />
+              </a>
+            </div>
           </div>
           <div>
             <IconButton

@@ -661,14 +661,20 @@ export function Home() {
                 }}
               />
             </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton
-                  icon={<GithubIcon />} 
-                  text={Locale.Home.Guanwang}  
-                  />
+            <div>
+              <a href="https://www.infoepoch.cn">
+                <GithubIcon />
+                {Locale.Home.Guanwang}
               </a>
             </div>
+// <div className={styles["sidebar-action"]}>
+// <a href={REPO_URL} target="_blank">
+// <IconButton
+// icon={<GithubIcon />} 
+// text={Locale.Home.Guanwang}  
+// />
+// </a>
+// </div>
           </div>
           <div>
             <IconButton

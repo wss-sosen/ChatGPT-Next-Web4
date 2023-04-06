@@ -671,7 +671,7 @@ export function Home() {
               </a>
             </div>
             <div>
-            <a href={info_url} target="_blank">
+            <a href={REPO_URL} target="_blank">
             <IconButton
               icon={<infoIcon />}
               text={提示词库}

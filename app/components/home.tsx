@@ -5,6 +5,7 @@ import { useDebouncedCallback } from "use-debounce";
 
 import { IconButton } from "./button";
 import styles from "./home.module.scss";
+
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
@@ -665,18 +666,6 @@ export function Home() {
                 <IconButton icon={<GithubIcon />} />
               </a>
             </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} />
-              </a>
-            </div>
-            <div>
-            <a href={REPO_URL} target="_blank">
-            <IconButton
-              icon={<infoIcon />}
-              text={提示词库}
-            />
-          </div>
           </div>
           <div>
             <IconButton

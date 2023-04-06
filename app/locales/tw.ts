@@ -42,6 +42,7 @@ const tw: LocaleType = {
   },
   Home: {
     NewChat: "新的對話",
+    Guanwang:"去学习"
     DeleteChat: "確定要刪除選取的對話嗎？",
   },
   Settings: {

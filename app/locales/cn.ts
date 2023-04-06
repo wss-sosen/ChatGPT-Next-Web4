@@ -41,7 +41,7 @@ const cn = {
   },
   Home: {
     NewChat: "新的聊天",
-    Guanwang:"去学习"
+    Guanwang:"去学习",
     DeleteChat: "确认删除选中的对话？",
   },
   Settings: {
